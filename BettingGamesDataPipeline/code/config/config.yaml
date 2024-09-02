@@ -1,0 +1,12 @@
+data:
+  input:
+    player_source_path: "../data/input/Player.csv"
+    currency_exchange_source_path: "../data/input/CurrencyExchange.csv"
+    game_source_path: "../data/input/Game.csv"
+    game_category_source_path: "../data/input/GameCategory.csv"
+    game_provider_source_path: "../data/input/GameProvider.csv"
+    game_transaction_source_path: "../data/input/GameTransaction.csv"
+  output:
+    fact_bet_output_path: "../data/output/fact_bet"
+    dim_player_output_path: "../data/output/dim_player"
+    dim_game_output_path: "../data/output/dim_game"
